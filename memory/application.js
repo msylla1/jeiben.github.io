@@ -14,9 +14,8 @@ $(document).ready(function(){
     else {
       click_count = 0
       second_guess = $(this).find("p").text();
-      if (first_guess != second_guess){
-        $(".clicked").css("opacity", 0);
-        $(".clicked").removeClass("clicked");
+      if (first_guess == second_guess){
+        $(".clicked").removeClass("clicked").addClass("correct");
         };
       };
     });
