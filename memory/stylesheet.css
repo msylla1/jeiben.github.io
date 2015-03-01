@@ -18,4 +18,6 @@ p {
 }
 #card_holder{
   width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
