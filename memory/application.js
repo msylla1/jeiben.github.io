@@ -16,6 +16,10 @@ $(document).ready(function(){
       second_guess = $(this).find("p").text();
       if (first_guess == second_guess){
         $(".clicked").removeClass("clicked").addClass("correct");
+        }
+      else {
+        $.delay(500);
+        $(".clicked").removeClass("clicked");
         };
       };
     });
