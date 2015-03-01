@@ -14,12 +14,11 @@ $(document).ready(function(){
       click_count = 0
       second_guess = $(this).find("p").html();
       if (first_guess != second_guess){
-        $(document).each(".clicked").css("opacity", 0);
         };
       };
     });
   $("#clear").on("click", function() {
     $(this).css("color", "red");
-    $(document).each("h1").css("opacity", 0);
+    $(document).each(".clicked").css("opacity", 0);
   });
 });
