@@ -19,6 +19,6 @@ $(document).ready(function(){
     });
   $("#clear").on("click", function() {
     $(this).css("color", "red");
-    $(document).each(".clicked").css("opacity", 0);
+    $(".card p").css("opacity", 0);
   });
 });
