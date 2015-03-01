@@ -18,7 +18,7 @@ $(document).ready(function(){
         $(".clicked").removeClass("clicked").addClass("correct");
         }
       else {
-        $(".clicked").css("opacity", 0).removeClass("clicked");
+        $(".clicked").delay(500).css("opacity", 0).removeClass("clicked");
         };
       };
     });
