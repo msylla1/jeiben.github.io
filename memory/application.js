@@ -19,7 +19,6 @@ $(document).ready(function(){
 		}
 		});
 	$("#clear").on("click", function() {
-		$(".clicked").each().css("opacity", 0)
-	})
+		$(".clicked").each().css("opacity", 0);
 	});
 });
