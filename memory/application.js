@@ -9,12 +9,14 @@ $(document).ready(function(){
     $("#guess").html($(this).find("p").text());
     if (click_count == 0) {
       click_count = 1;
-      first_guess = $(this).find("p").html();
+      first_guess = $(this).find("p").text();
     }
     else {
       click_count = 0
-      second_guess = $(this).find("p").html();
+      second_guess = $(this).find("p").text();
       if (first_guess != second_guess){
+        $(document).each("#clicked").css("opacity", 0);
+        $(document).each("#clicked").removeClass("clicked");
         };
       };
     });
