@@ -10,13 +10,12 @@ h1 {
   border-color: #8C8F8C;
   margin-right: 15px;
   margin-bottom: 15px;
-  position: relative;
 }
 
 p {
   text-align: center;
   display: none;
-  position: absolute;
+  width: 50px;
 }
 #card_holder{
   width: 615px;
