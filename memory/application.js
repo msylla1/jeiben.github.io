@@ -6,6 +6,7 @@ $(document).ready(function(){
   $(".card").on("click", function() {
     $(this).find("p").css("opacity", 1);
     $(this).find("p").addClass("clicked");
+    $("#guess").innerHTML(this.find("p").html());
     if (click_count == 0) {
       click_count = 1;
       first_guess = $(this).find("p").html();
