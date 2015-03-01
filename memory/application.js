@@ -10,7 +10,6 @@ $(document).ready(function(){
     if (click_count == 0) {
       click_count = 1;
       first_guess = $(this).find("p").html();
-      $("#guess").innerHTML(first_guess);
     }
     else {
       click_count = 0
