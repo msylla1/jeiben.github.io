@@ -1,6 +1,6 @@
 $(document).ready(function(){
+	event.preventDefault();
 	$(".card").on("click", function() {
-		event.preventDefault();
 		$(this).find("p").show();
 	});
 });
