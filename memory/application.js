@@ -18,7 +18,6 @@ $(document).ready(function(){
         $(".clicked").removeClass("clicked").addClass("correct");
         }
       else {
-        $.delay(500);
         $(".clicked").removeClass("clicked");
         };
       };
