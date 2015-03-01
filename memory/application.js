@@ -15,8 +15,7 @@ $(document).ready(function(){
       click_count = 0
       second_guess = $(this).find("p").text();
       if (first_guess != second_guess){
-        $(document).each("#clicked").css("opacity", 0);
-        $(document).each("#clicked").removeClass("clicked");
+        $("#clear").css("color", "blue");
         };
       };
     });
