@@ -20,6 +20,6 @@ $(document).ready(function(){
     });
   $("#clear").on("click", function() {
     $(this).css("color", "red");
-    $(document).find(".clicked").css("opacity", 0);
+    $(document).each(".card").css("opacity", 0);
   });
 });
