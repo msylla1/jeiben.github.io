@@ -24,5 +24,6 @@ $(document).ready(function(){
     });
   $("#clear").on("click", function() {
     $(".card p").css("opacity", 0);
+    $(".card p").removeClass("correct");
   });
 });
