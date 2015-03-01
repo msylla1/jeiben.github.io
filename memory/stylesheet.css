@@ -26,3 +26,7 @@ p {
 .clicked {
   border-color: red;
 }
+
+#clear {
+  opacity: 1;
+}
