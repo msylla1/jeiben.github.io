@@ -30,7 +30,7 @@ p {
 #clear {
   opacity: 1;
   width: 150px;
-  text-align: center;
+  margin: 0 auto;
   border: 1px;
   border-style: dotted;
 }
