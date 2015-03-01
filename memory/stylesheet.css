@@ -16,3 +16,6 @@ p {
   text-align: center;
   display: none;
 }
+#card_holder{
+  width: 600px;
+}
