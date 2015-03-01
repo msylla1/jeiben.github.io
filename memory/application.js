@@ -16,7 +16,7 @@ $(document).ready(function(){
 			if (first_guess != second_guess){
 				$(".clicked").each().css("opacity", 0);
 			};
-		}
+		};
 		});
 	$("#clear").on("click", function() {
 		$(this).css("color", "red");
