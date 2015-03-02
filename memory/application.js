@@ -19,7 +19,7 @@ $(document).ready(function(){
       else {
         setTimeout(function () {
           $(".clicked").css("opacity", 0).removeClass("clicked");
-          }, 1000);
+          }, 500);
         };
       };
     });
