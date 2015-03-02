@@ -11,7 +11,7 @@ $(document).ready(function(){
       first_guess = $(this).find("p").text();
     }
     else {
-      click_count = 0
+      click_count = 0;
       second_guess = $(this).find("p").text();
       if (first_guess == second_guess){
         $(".clicked").removeClass("clicked").addClass("correct");
