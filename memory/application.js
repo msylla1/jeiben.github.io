@@ -17,6 +17,6 @@ $(document).ready(function(){
   var shuffled_array = shuffle(card_array);
   
   for(i in shuffled_array){
-    $('#card_holder').append('<div class="card"><p>'+i+'</p></div>');
+    $('#card_holder').append('<div class="card"><p>'+shuffled_array[i]+'</p></div>');
   }
 });
