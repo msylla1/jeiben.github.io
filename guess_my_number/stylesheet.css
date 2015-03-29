@@ -13,3 +13,7 @@ input, button {
 #feedback {
   height: 30px;
 }
+
+#guess_counter{
+  font-style: italic;
+}
