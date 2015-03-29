@@ -1,3 +1,11 @@
 h1 {
   text-align: center;
 }
+input, button {
+  display:inline-block;
+}
+
+input_holder {
+  width: 300px;
+  margin: 0 auto;
+}
