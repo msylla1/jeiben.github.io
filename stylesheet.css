@@ -18,7 +18,6 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 #greeting{
-    display: inline-block;
     padding-bottom: 75px;
 }
 p, li {
@@ -29,7 +28,6 @@ p, li {
 }
 
 img {
-    display: inline-block;
     width: 200px;
     padding-left: 50px;
 }
