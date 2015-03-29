@@ -24,9 +24,11 @@ p, li {
     font-size: 16px;
     line-height: 20px;
     color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 img {
     display: inline-block;
     width: 200px;
+    margin-top: 200px;
 }
